@@ -4,7 +4,10 @@
 echo("pitanje je");
 ?>
 
+<script>
 
+console.log("olaa")
+</script>
 <form method="POST" action="<?php htmlspecialchars($_SERVER["PHP_SELF"])?>">
 
 <input name="nesto" type="text" value="type..."/>
